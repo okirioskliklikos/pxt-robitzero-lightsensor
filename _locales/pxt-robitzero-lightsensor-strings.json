@@ -1,0 +1,12 @@
+{
+  "rb0lightsensor.initAdvanced|block": "light sensor at pin %pin2",
+  "rb0lightsensor.initSimple|block": "light sensor at port %port",
+  "rb0lightsensor.isEnvironmentLighted|block": "is environment lighted",
+  "rb0lightsensor.readLightSensorRealValue|block": "light sensor real value",
+  "rb0lightsensor.readLightSensorValue|block": "light sensor value",
+  "rb0lightsensor.setLightThreshold|block": "set light threshold at %value\\%",
+  "rb0lightsensor|block": "Light Sensor",
+  "{id:category}Rb0lightsensor": "Rb0lightsensor",
+  "{id:group}Logic": "Logic",
+  "{id:group}Values": "Values"
+}
