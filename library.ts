@@ -67,14 +67,25 @@ namespace rb0lightsensor {
     }
 
     /**
-    * Read Light sensor real value that is connected at current port/pin
+    * Return true if the environment is lighted, false otherwise
     */
     //% blockId="rb0lightsensor_isEnvironmentLighted"
     //% block="is environment lighted"
     //% group="Logic"
-    //% weight=75
+    //% weight=75 advanced=true
     export function isEnvironmentLighted(): boolean {
         return readLightSensorValue() > LIGHTTHRESHOLD;
+    }
+
+    /**
+    * Return true if the environment is not lighted, false otherwise
+    */
+    //% blockId="rb0lightsensor_isEnvironmentNotLighted"
+    //% block="is environment not lighted"
+    //% group="Logic"
+    //% weight=75
+    export function isEnvironmentNotLighted(): boolean {
+        return !isEnvironmentLighted();
     }
 
     /**
