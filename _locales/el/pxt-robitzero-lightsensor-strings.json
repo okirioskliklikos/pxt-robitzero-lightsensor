@@ -2,6 +2,7 @@
   "rb0lightsensor.initAdvanced|block": "αισθητήρας φωτός στον ακροδέκτη %pin2",
   "rb0lightsensor.initSimple|block": "αισθητήρας φωτός στην θύρα %port",
   "rb0lightsensor.isEnvironmentLighted|block": "το περιβάλλον φωτίζεται",
+  "rb0lightsensor.isEnvironmentNotLighted|block": "το περιβάλλον δεν φωτίζεται",
   "rb0lightsensor.readLightSensorRealValue|block": "πραγματική τιμή αισθητήρα φωτός",
   "rb0lightsensor.readLightSensorValue|block": "τιμή αισθητήρα φωτός",
   "rb0lightsensor.setLightThreshold|block": "όρισε κατώφλι φωτός σε %value\\%",
