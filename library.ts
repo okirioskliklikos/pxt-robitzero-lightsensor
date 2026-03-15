@@ -13,8 +13,8 @@
 //% weight=9 color=#ff6f00 icon="\uf0a9"
 namespace rb0lightsensor {
 
-    const THRESHOLD_P0 = 16; //16%
-    const THRESHOLD_P1P10 = 18; //18%
+    const THRESHOLD_P0 = 24; //24%
+    const THRESHOLD_P1P10 = 26; //26%
 
     let LIGHTTHRESHOLD = THRESHOLD_P0;
 
@@ -95,7 +95,7 @@ namespace rb0lightsensor {
     //% blockId="rb0lightsensor_setLightThreshold"
     //% block="set light threshold at %value\\%" 
     //% weight=80 blockGap=24 advanced=true
-    //% value.min=0 value.max=100 value.defl=16
+    //% value.min=0 value.max=100 value.defl=24
     export function setLightThreshold(value: number) {
         LIGHTTHRESHOLD = value;
     }
